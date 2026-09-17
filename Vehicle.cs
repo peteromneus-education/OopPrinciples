@@ -1,4 +1,6 @@
-﻿public class Vehicle
+﻿namespace OopPrinciples;
+
+public class Vehicle
 {
     public string Brand { get; set; }
 
@@ -7,7 +9,7 @@
         Brand = brand;
     }
 
-    public void PrintInfo()
+    public virtual void PrintInfo()
     {
         Console.WriteLine($"Brand: {Brand}");
     }
