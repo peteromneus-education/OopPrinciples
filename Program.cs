@@ -1,4 +1,6 @@
-﻿
-Vehicle firstVehicle = new Vehicle("Toyota");
+﻿using OopPrinciples;
 
-firstVehicle.PrintInfo();
+Vehicle vehicle = new Car("Toyota");
+
+vehicle.PrintInfo();
+vehicle.Move();
